@@ -52,7 +52,7 @@
     list-style: none;
 	color: white;
 	float: left;
-	font-size: 18px;
+	font-size: 13px;
 	padding: 25px;;
     transition: all 0.5s ease;
     
@@ -107,11 +107,13 @@
     
     }
    /* For mobile phones: */
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: <=768px) {
      
       [class*="col-"] {
         flex-basis: 100%;
       }
+
+      
   
       }
   
@@ -160,9 +162,9 @@
   
     .h3{
       font-family:'Lato', sans-serif;
-      font-size: 45px;
-      color: rgb(51, 56, 51);
-      font-weight:Bold;
+      font-size: 30px;
+      color: #61B229;
+    
     
     }
     .h4{
@@ -173,7 +175,7 @@
      font-style: italic;
       font-weight: Bold;
     }
-  /* horizontal line */
+  /* horizontal line */s
     .hr{
       display: block;
       height: 1px;
@@ -192,7 +194,7 @@
     }
     .li{
       font-family: 'Lato', sans-serif;
-      font-size: 23px;
+      font-size: 18px;
       color:rgb(44, 45, 44);
       margin: 10px;
       line-height: 30px;
@@ -201,8 +203,9 @@
   /* paragraph style */
   .paragraph{
       font-family: 'Lato', sans-serif;
-      font-size: 23px;
-      color: rgb(80, 80, 80);
+      font-size: 18px;
+      line-height: 21px;
+      color:rgb(44, 45, 44);
       margin: 0 3% 0 3%;
      
   }
@@ -240,6 +243,8 @@
   line-height: 40px;
 
 }
+
+
 
   /* whi I am Section*/
   .aboutcontent{
