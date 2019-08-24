@@ -13,13 +13,17 @@
           scroll-behavior: smooth;
         }
         </style>
+        <script type="text/javascript">
+            function openTab(th)
+            {
+                window.open(th.name,'_blank');
+            }
+        </script>
   
 </head>
 <body>
         <!––background section ––>     
-    <video autoplay muted loop id="myVideo">
-                <source src="images/Macro_Plex_4K_Motion_Background_Loop.mp4" type="video/mp4">
-              </video>
+    
     <!–– Nav bar section ––>
 <div class="navbar">
     <nav class="nav">
@@ -49,18 +53,22 @@
         </div>
         <!–– who i am section ––>
         <hr class="hr" /> 
-                <div id=believe>   
-                    <div class="halfContainer" >
-                        <div class="left-div">
-                   <img src="images/mypic.png" width="550px" class="img">
-                </div>
-                
-                <div class="right-div" >
-                   <p class="h4">Hi There,<br> I am Moonmita Ghosh, An UX/UI designer based in San Francisco, California. I believe, a great  design is informed design,. <br><br>
-                    Understanding the user’s beliefs and motivation is the key in creating a successful experience, that users find effortless and natural...</p>
-                        </div>
+        <div id=believe>  
+        <div class="cardGroup">
+        
+                <div class="card">
+                    <div><img src="images/mypic.png" width="550px" class="img"></div>
+
                     </div>
-                </div>
+                    <div class="card">
+                            <div><p class="h4">Hi There,<br> I am Moonmita Ghosh, An UX/UI designer based in San Francisco, California. I believe, a great  design is informed design,. <br><br>
+                                Understanding the user’s beliefs and motivation is the key in creating a successful experience, that users find effortless and natural...</p></div>
+        
+                            </div>
+        </div>
+        </div>
+        
+
                 <div class="aboutcontent" >
                 <div class="aboutCol1"><p class="h3">Who I Am</p>
                     <p class="paragraph">I’ve been designing digital experiences for over 6 years across a variety of industries.  I like to describe myself as more than just a designer. 
@@ -158,29 +166,39 @@
                         
                         <div class="workbg">
                         <div id=works></div>
-                        <div class="h3" font-color=black;> View My Work<br></div>         
+                        <div class="h3 box"> <br>View My Work<br></div>         
 
 <div class="cardGroup">
         
     <div class="card">
         <div><img src="images/livermorecity.png" class="work-img"></div>
     <div class="paragraph">
-        VoyagEase Mobile App View Case Study
+        Responsive Website Re-Design Project for City of Livermore
     </div>
+    <div><a onClick="openTab(this)" href="#" name="images/LivermoreCity _UIDesign_CaseStudy.pdf"><button class="button1">View Case Study</button> </a>
+        <a onClick="openTab(this)" href="#" name="images/LivermoreCity _UIDesign_CaseStudy.pdf"><button class="button1">View Prototype</button> </a></div>
+    
 </div>
 
     <div class="card">
         <div><img src="images/layout_mobile_app_prototyping.png" class="work-img"></div>
         <div class="paragraph">
-            View Case Study
+                VoyagEase Mobile App for Personalized Travel Iternerary
         </div>
+        <div><a onClick="openTab(this)" href="#" name="images/LivermoreCity _UIDesign_CaseStudy.pdf"><button class="button1">View Case Study</button> </a>
+            <a onClick="openTab(this)" href="#" name="images/LivermoreCity _UIDesign_CaseStudy.pdf"><button class="button1">View Prototype</button> </a></div>
+      
     </div>
-  </div>
 </div>
+
+
 <!–– Tech Skil Section––>
 
 <div id=tech> 
-        <div class="h3"> Technical Skills<br></div>
+        <div class="h3 box"> Technical Skills<br></div>
+        
+        <div class="box">
+               
 <div class="tool-container">
         
     
@@ -197,16 +215,40 @@
       
 </div>
 </div>
-                        <!–– Footer section ––>
-                        <div class="h3"> Get Connected<br></div>
-<div class="footer" id=footer>
-
-
-
-<div class="a">
-<a href="https://www.linkedin.com/in/moonmitaghosh/" target="blank" class="a">LinkedIn</a>
-<a href="#" target="blank" class="a">Dribble</a>
-<a href="https://www.coroflot.com/mghosh" target="blank" class="a">Coroflot</a>
 </div>
+
+
+  <!–– Footer section ––>
+                        
+<div class="footer" id=footer>
+    <div class="box">
+    <div class="h5"><br>Get Connected<br>
+        +1-510-267-2144<br></div>
+    </div>
+     <div class="box">
+
+        <div class="social-container">
+        
+    
+                <img src="images/behance.png" class="social-img">
+                <a href="https://www.linkedin.com/in/moonmitaghosh/"><img src="images/Linkedin.png" class="social-img"></a>
+                <img src="images/insta.png" class="social-img">
+                <img src="images/fb.png" class="social-img">
+                </div>
+                </div>
+
+                <div class="box"> 
+                  
+                    <a href="#" class="micro">Home |</a>
+				<a href="#believe" class="micro">Who I AM |</a>
+                <a href="#experience" class="micro">Experience |</a> 
+                <a href="#works" class="micro">View My Works |</a>
+                <a href="#tech" class="micro">Technical Skills |</a>
+                <a href="#footer" class="micro">Get Connected</a>
+                </div>
+                <div class="box micro"> © 2019 by MOONMITA  GHOSH DESIGNS. All rights reserved.</div>
+                </div>
+
+
     </body>
     </html>

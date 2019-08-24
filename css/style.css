@@ -177,6 +177,24 @@
      font-style: italic;
       font-weight: Bold;
     }
+    .h5{
+      font-family: 'Poiret One', cursive;
+      font-size: 30px;
+      color: rgb(255, 255, 255);
+      margin: 10px;
+    font-kerning: 2.5;
+      font-weight: Bold;
+      line-height: 50px;
+    }
+    .micro{
+      font-family: 'Lato', sans-serif;
+      font-size: 12px;
+      color: rgb(255, 255, 255);
+      margin: 10px;
+    font-kerning: 2.5;
+  
+    }
+
   /* horizontal line */s
     .hr{
       display: block;
@@ -299,7 +317,7 @@ line-height: 40px;
   display: flex;
   flex-direction: column;
   flex: 1;
- border: #2d2c2c solid 1px;
+
  border-radius: 3px;
   padding: 1rem;
   margin: 0.5rem;
@@ -331,66 +349,26 @@ line-height: 40px;
   .footer{
     display: inline-block;
   width:100%;
-  height: 300px;
-    background-color: rgb(55, 55, 55);
+  height: 400px;
+  justify-content: center;
+  align-content: center;
+    background-color: rgb(23, 22, 22);
     line-height: 2;
   
+  
   }
-
-   .footer a{
-       display:flex;
-       justify-content: center;
-       height: 20px;
-       margin: auto;
-       padding: 10px 10px;
-       font-family: 'Poiret One', cursive;
-      font-size: 16px;
-      color:rgb(181, 181, 139) ;
-  
-      
-   }
-   .footer a:hover{
-    color: rgb(250, 250, 250);
-   }
-  
-  /* button Style */
-    .button1 {
-      width: 300px;
-       height: 50px;
-       padding: 10PX 10PX;
-      background: rgba(255, 255, 255,0);
-      border: 1px solid rgb(41, 41, 40); 
-      border-radius: 10px;
-      margin: 10PX;
-      color:rgb(41, 41, 40);
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      -webkit-transition-duration: 0.4s; /* Safari */
-      transition-duration: 0.4s;
-      cursor: pointer;
-    
-    }
-    .button1:hover {
-      color: #fff;
-      background-color: #73AD21;
-      
-    
-  
-    }
   
     .tool-container{
      
       align-items: center;
       display: flex;
-      width:80%;
+      width:50%;
       justify-content: space-around;
       flex-wrap: wrap;
       margin: 10px;
     }
     .tool-img{
-      max-width: 60px;
+      max-width: 40px;
       height: auto;
       padding:20px;
     }
@@ -408,3 +386,46 @@ line-height: 40px;
     height: auto;
   
    }
+
+  /* button Style */
+  .button1 {
+    width: 200px;
+     height: 45px;
+     padding: 10PX 10PX;
+    background: rgba(255, 255, 255,0);
+    border: 1px solid rgb(41, 41, 40); 
+    border-radius: 10px;
+    margin: 20PX;
+    color:rgb(41, 41, 40);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+  
+  }
+
+  .button1:hover {
+    color: #fff;
+    background-color: #73AD21;
+    
+
+  }
+
+  .social-container{
+     
+    align-items: center;
+    display: flex;
+    width:400px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content:center;
+    margin: 10px;
+  }
+  .social-img{
+    max-width: 40px;
+    height: auto;
+    padding:20px;
+  }

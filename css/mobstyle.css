@@ -58,13 +58,23 @@
     margin: 240px 0 0 0;
   }
   .img{
-    margin: 240px 10px 10px 210px;
+    max-width: 400px;
+    align-content: center;
+
+}
+.work-img{
+    width:300px;
 
 }
 .h3{
     font-size: 23px;
     line-height: 25px;
     font-weight: bold;
+}
+.h4{
+    
+    font-size: 20px;
+    line-height: 25px;
 }
 
 .paragraph{
@@ -73,6 +83,7 @@
 
    .li{
   
-    font-size: 15px;}
-   }
-  
+    font-size: 15px;
+}
+
+   } /* end brace*/
