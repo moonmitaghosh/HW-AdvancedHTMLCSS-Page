@@ -2,7 +2,7 @@
 /* opacity*/
 .alpha{
   opacity: 0.1;
-  
+  bac
 }
 /* Video bg*/
 #myVideo {
@@ -19,6 +19,7 @@
     display: inline-block;
     top:0;
     width:100%;
+   
     position: fixed;
     background-color:#2d2c2c;
 	border-bottom: 3px solid #61B229;
@@ -43,10 +44,9 @@
 
 .nav{
     display:flex;
-    flex-wrap:nowrap ;
+    justify-content: space-around;
     width: 100%;
-	height: 80px;
-	float: left;
+    height: 80px;
 	border-bottom: 3px solid #61B229;
 	transition: color 1s ease;
 	-moz-transition: color 1s ease;
@@ -54,23 +54,25 @@
     
 }
 
-.nav ul li{
-    list-style: none;
-	color: white;
+
+.nav a{
+  color: white;
 	float: left;
 	font-size: 13px;
-	padding: 25px;;
+  padding: 25px;
+  cursor: pointer;
     transition: all 0.5s ease;
-    
-}
 
-.nav ul li:hover{
-	background-color: rgba(0, 0, 0, 0.2);
+
+}
+.nav a:hover{
+  background-color: rgba(0, 0, 0, 0.2);
 	border-top: 3px solid #61B229;
   height:auto;
+  cursor: pointer;
   font-weight: bold;
-
 }
+
 
 /* Container */
 .bgContainer{
@@ -332,7 +334,7 @@ line-height: 40px;
 
 .cardContent {
   flex: 1;
-  background-color: yellow;
+  
   justify-content: center;
 }
 
@@ -362,6 +364,12 @@ line-height: 40px;
     line-height: 2;
   
   
+  }
+  .footer a{
+    color:white;
+  }
+  .footer a:hover{
+    color: #61B229;
   }
   
     .tool-container{
