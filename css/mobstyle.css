@@ -21,21 +21,21 @@
         margin: 15px 0 0 0;
          align-items: center;
         
-        
-        
     }
+
     .halfContainer{
         display: flex;
-    justify-content: center;}
+    justify-content: center;
+}
   
     .left-div {
       flex-basis: 100%;
       height: auto;
       margin:10px 5% 10px 5%;
       height: auto;
-     
-      
+        
   }
+
   .right-div {
    
       
@@ -45,8 +45,8 @@
       line-height: 10px;
     
   }
+
   .right-div2 {
- 
    
     flex: 1;
     height: auto;
@@ -59,6 +59,8 @@
     width:180px;
     margin: 240px 0 0 0;
   }
+
+
   .img{
     max-width: 400px;
     align-content: center;
@@ -69,13 +71,13 @@
 
 }
 .h3{
-    font-size: 23px;
+    font-size: 20px;
     line-height: 25px;
     font-weight: bold;
 }
 .h4{
     
-    font-size: 20px;
+    font-size: 18px;
     line-height: 25px;
 }
 
