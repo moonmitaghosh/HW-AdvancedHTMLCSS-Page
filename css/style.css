@@ -1,8 +1,8 @@
 
-/* Background image opacity*/
+/* Background opacity*/
 .alpha{
   opacity: 0.1;
-  
+  bac
 }
 /* Video bg*/
 #myVideo {
@@ -29,24 +29,14 @@
 
   }
  
-.nav a{
-    font-family:'Raleway', sans-serif;
-    text-decoration: none;
-	color: #fff;
-    transition: all 1s ease;
 
-}
-.nav a:hover{
-    font-weight: bold;
-    color: #61B229;
-
-}
 
 .nav{
     display:flex;
     justify-content: space-around;
+    margin: 0 0 0 0;
     width: 100%;
-    height: 80px;
+    height: 70px;
 	border-bottom: 3px solid #61B229;
 	transition: color 1s ease;
 	-moz-transition: color 1s ease;
@@ -56,9 +46,11 @@
 
 
 .nav a{
+  font-family:'Raleway', sans-serif;
+  text-decoration: none;
   color: white;
 	float: left;
-	font-size: 13px;
+	font-size: 15px;
   padding: 25px;
   cursor: pointer;
     transition: all 0.5s ease;
@@ -67,10 +59,12 @@
 }
 .nav a:hover{
   background-color: rgba(0, 0, 0, 0.2);
+  color: #61B229;
 	border-top: 3px solid #61B229;
   height:auto;
   cursor: pointer;
   font-weight: bold;
+  text-decoration: none;
 }
 
 
@@ -116,7 +110,7 @@
     
     }
    /* For mobile phones: */
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: <=768px) {
      
       [class*="col-"] {
         flex-basis: 100%;
@@ -153,7 +147,7 @@
     /* main headings style*/
     .heading1{
       font-family: 'Poiret One', cursive;
-      font-size: 8vw;
+      font-size: 5vw;
       color:rgb(36, 36, 36);
       margin: 10px;
       font-weight: bold;
@@ -162,7 +156,7 @@
     }
     .h2{
     font-family: 'Poiret One', cursive;
-      font-size: 3.5vw;
+      font-size: 2.4vw;
       color: #61B229;
       margin: 10px;
      
@@ -172,7 +166,7 @@
   
     .h3{
       font-family:'Lato', sans-serif;
-      font-size: 30px;
+      font-size: 28px;
       color: #61B229;
     
     
@@ -367,9 +361,11 @@ line-height: 40px;
   }
   .footer a{
     color:white;
+    text-decoration: none;
   }
   .footer a:hover{
     color: #61B229;
+    text-decoration: none;
   }
   
     .tool-container{
